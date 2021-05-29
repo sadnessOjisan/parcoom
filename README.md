@@ -1,13 +1,13 @@
 # parcoom
 
-Super Fast and Lightweight Monadic Parser Combinator library in OCaml. No dependencies. You can just copy-paste it to your project and use it.
+build [parcoom](https://github.com/tsoding/parcoom) with [dune](https://github.com/ocaml/dune).
 
 ## Quick Start
 
 ```
-$ make
-$ ./ini.native ./examples/test.ini
-$ make test
+$ dune build
+
+$ ./_build/default/bin/main.exe bin/test.ini
 ```
 
 ## References
